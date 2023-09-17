@@ -1,0 +1,142 @@
+/*start general style*/
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+
+    display: flex;
+	background: black;
+    justify-content: center;
+}
+
+.wrapper {
+	height: 40rem;
+	width: 100vw;
+}
+
+.wrapper > input {
+
+    display: none;
+
+}
+
+.wrapper input:first-child {
+
+    margin-left: 300px;
+
+}
+
+/*end general style*/
+
+/*start slider style*/
+
+.slider {
+
+	overflow: hidden;
+	width: 50%;
+    height: 21.87rem;
+    display: flex;
+    flex-direction: row;
+    margin: auto;
+    border-radius: 1.25rem;
+    margin-top: 6.25rem;
+}
+
+.slides {
+
+    background-repeat: no-repeat;
+    border-radius: 1.25rem;
+	height: inherit;
+	width: 0;
+    transition: all 1s;
+    opacity: 0;
+
+}
+
+/*end slider style*/
+
+/* start footer style*/
+
+.footer {
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #f0f8ff;
+    width: 50%;
+    height: 8rem;
+    margin: auto;
+
+}
+.title-box {
+
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    width: 12.5rem;
+    height: 3.125rem;
+
+}
+
+.titles {
+
+    opacity: 0;
+    width: 0;
+    height:3.125rem;
+
+}
+
+#title1 {
+
+    width: 12.5rem;
+    opacity: 1;
+}
+
+.controls {
+
+    height: 3.125rem;
+
+}
+
+label {
+
+	cursor: pointer;
+	display: inline-block;
+	height: 0.75rem;
+	margin: 0rem 0.75rem;
+	width: 0.75rem;
+    background: #0000ff;
+    border-radius: 50%;
+
+}
+
+/* end footer style*/
+
+/* start checked and hover effect */
+
+#slide1:checked ~ .slider > .slide1,
+#slide2:checked ~ .slider > .slide2,
+#slide3:checked ~ .slider > .slide3,
+#slide4:checked ~ .slider > .slide4,
+#slide5:checked ~ .slider > .slide5 {
+
+    width: 100%;
+    opacity: 1;
+
+}
+
+label:hover {
+
+    background: #ffffff;
+
+}
+
+/* end checked and hover effect */
+
+
+
+
