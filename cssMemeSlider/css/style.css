@@ -1,3 +1,25 @@
+/*start general style*/
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+
+    display: flex;
+	background: black;
+    justify-content: center;
+}
+
+.wrapper {
+	height: 40rem;
+	width: 100vw;
+}
+
+/*end general style*/
+
 
 
 
