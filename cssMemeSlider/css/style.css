@@ -109,9 +109,28 @@ label {
 
 }
 
-/* start footer style*/
+/* end footer style*/
 
+/* start checked and hover effect */
 
+#slide1:checked ~ .slider > .slide1,
+#slide2:checked ~ .slider > .slide2,
+#slide3:checked ~ .slider > .slide3,
+#slide4:checked ~ .slider > .slide4,
+#slide5:checked ~ .slider > .slide5 {
+
+    width: 100%;
+    opacity: 1;
+
+}
+
+label:hover {
+
+    background: #ffffff;
+
+}
+
+/* end checked and hover effect */
 
 
 
