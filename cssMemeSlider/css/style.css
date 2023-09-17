@@ -18,7 +18,100 @@ body {
 	width: 100vw;
 }
 
+.wrapper > input {
+
+    display: none;
+
+}
+
+.wrapper input:first-child {
+
+    margin-left: 300px;
+
+}
+
 /*end general style*/
+
+/*start slider style*/
+
+.slider {
+
+	overflow: hidden;
+	width: 50%;
+    height: 21.87rem;
+    display: flex;
+    flex-direction: row;
+    margin: auto;
+    border-radius: 20px;
+    margin-top: 100px;
+}
+
+.slides {
+
+    background-repeat: no-repeat;
+    border-radius: 20px;
+	height: inherit;
+	width: 0;
+    transition: all 1s;
+    opacity: 0;
+
+}
+
+/*end slider style*/
+
+/* start footer style*/
+
+.footer {
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #f0f8ff;
+    width: 50%;
+    height: 8rem;
+    margin: auto;
+
+}
+.title-box {
+
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    width: 200px;
+    height: 50px;
+    background-color: brown;
+
+}
+
+.titles {
+
+    opacity: 0;
+    width: 0;
+    height:50px;
+
+}
+
+.controls {
+
+    height: 50px;
+
+}
+
+label {
+
+	cursor: pointer;
+	display: inline-block;
+	height: 12px;
+	margin: 0px 12px;
+	width: 12px;
+    background: #0000ff;
+    border-radius: 50%;
+
+}
+
+/* start footer style*/
+
+
 
 
 
